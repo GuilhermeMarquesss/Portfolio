@@ -2110,6 +2110,7 @@ button,
 /* Banner */
 #banner {
   padding: 6em 0 4em 0 ;
+  margin-bottom: -7em ;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2136,10 +2137,10 @@ button,
     -ms-flex-shrink: 0;
     flex-shrink: 0;
     display: block;
-    margin: 0 0 2em 4em;
+    margin: 0 0 em 4em;
     width: 50%; }
     #banner .image img {
-      height: 90%;
+      height: 70%;
       -moz-object-fit: cover;
       -webkit-object-fit: cover;
       -ms-object-fit: cover;
@@ -2148,7 +2149,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 80%; }
+      width: 70%; }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
