@@ -1875,9 +1875,12 @@ button,
         padding: 4em 0 2em 0 ; } }
   @media screen and (max-width: 736px) {
     #main > .inner {
-      padding: 0 2em 0.1em 2em ; }
+      padding: 0 2em 0.1em 2em ;
+	  margin-top: 3em;	}
       #main > .inner > section {
-        padding: 3em 0 1em 0 ; } }
+        padding: 3em 0 1em 0 ;
+        margin-top: 5em;		
+		} }
 
 /* Sidebar */
 #search form {
@@ -2184,7 +2187,9 @@ button,
         width: 100%; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
-      max-height: 35vh; } }
+      max-height: 50vh;
+	  margin-bottom: 1;
+		} }
 
 /* Footer */
 #footer .copyright {
